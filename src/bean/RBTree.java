@@ -1,5 +1,5 @@
 package bean;
-
+// nnjj
 public class RBTree {
 
 	private RedBlackNode current;

@@ -8,13 +8,13 @@ public class RedBlackTreeTest {
 		Scanner scan = new Scanner(System.in);
 		/* Creating object of RedBlack Tree */
 		RBTree rbt = new RBTree(Integer.MIN_VALUE);
-		System.out.println("----------Red Black Tree----------\n");
+		System.out.println("----------Red Black Tree----------");
 		char ch;
 		/* Perform tree operations */
 		do // ryyrhjeyueru t hyf hjgfjghkighkgfkghkgth
 		{
-			System.out.println("\n-----Red Black Tree Operations-----\n");
-			System.out.println("\n----Enter Your Choice----\n");
+			System.out.println("-----Red Black Tree Operations-----");
+			System.out.println("\n----Enter Your Choice----");
 			System.out.println("1. Insert ");
 			System.out.println("2. Search");
 			System.out.println("3. Count nodes");
@@ -60,7 +60,7 @@ public class RedBlackTreeTest {
 			System.out.print("\nIn order : ");
 			rbt.inorder();
 
-			System.out.println("\nDo you want to continue (Type y or n) \n");
+			System.out.println("\nDo you want to continue (Type y or n) ");
 			ch = scan.next().charAt(0);
 		} while (ch == 'Y' || ch == 'y');
 	}
